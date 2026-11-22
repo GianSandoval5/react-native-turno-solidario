@@ -1,0 +1,24 @@
+name: React Native CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  react-native:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts
+      - run: npx prettier --check App.tsx src test
+      - run: npx tsc --noEmit
+      - run: npx expo install --check
+      - run: npx jest --ci --coverage --runInBand
+      - run: npx expo export --platform android
+      - run: python3 scripts/run_mobilelab_checks.py .

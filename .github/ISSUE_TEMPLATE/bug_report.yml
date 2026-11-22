@@ -1,0 +1,33 @@
+name: Reportar un error
+description: Ayuda a reproducir un fallo con datos de ejemplo.
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Para vulnerabilidades o información sensible, consulta SECURITY.md antes de abrir un issue.'
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Comportamiento esperado y observado
+      description: Explica el problema y su impacto.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Pasos de reproducción
+      description: Incluye pasos mínimos y datos sintéticos.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Entorno
+      placeholder: 'Commit, framework, sistema operativo y dispositivo'
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia sin información sensible
+      description: Capturas o logs revisados y anonimizados.

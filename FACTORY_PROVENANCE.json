@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "owner": "GianSandoval5",
+  "request": {
+    "framework": "react-native",
+    "repo_name": "react-native-turno-solidario",
+    "app_name": "turno_solidario",
+    "project_dir": "projects/turno-solidario",
+    "description": "Coordinaci\u00f3n de turnos comunitarios y voluntariado con React Native y MobileLab SQLite."
+  },
+  "source_sha": "3dbd5e170c5fff3925f0f0ac6e8714c1dc8a37af",
+  "run_url": "https://github.com/GianSandoval5/mobile-ai-factory/actions/runs/45028142564",
+  "sdk": {
+    "node": "v22.23.5",
+    "packages": {
+      "expo": "~57.0.33",
+      "expo-build-properties": "~57.0.23",
+      "expo-status-bar": "~57.0.1",
+      "react": "19.2.3",
+      "react-native": "0.86.3",
+      "react-native-safe-area-context": "~5.7.0"
+    }
+  },
+  "tests_passed": 11,
+  "coverage_lines": {
+    "hit": 124,
+    "found": 152
+  },
+  "analysis": "passed",
+  "build": {
+    "kind": "expo-android-bundle",
+    "status": "passed"
+  },
+  "dependency_audit": {
+    "provider": "npm audit",
+    "scope": "production",
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 3,
+      "high": 0,
+      "critical": 0,
+      "total": 3
+    }
+  },
+  "source_digest": "a1ef812cdfa6f57fca54c620d36b0d993a63b1fe28a1c6f7dc2b0abef51bbd17"
+}

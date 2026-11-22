@@ -1,0 +1,6 @@
+schema_version: 1
+resources:
+  shifts:
+    path: /api/shifts
+    id: id
+    seed: seeds/shifts.json

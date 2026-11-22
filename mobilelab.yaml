@@ -1,0 +1,16 @@
+schema_version: 1
+project:
+  name: turno-solidario
+server:
+  host: 127.0.0.1
+  port: 4566
+dashboard:
+  enabled: true
+sandbox:
+  latency: 0
+  error_rate: 0
+auth:
+  enabled: false
+device:
+  auto_detect: false
+endpoints: []

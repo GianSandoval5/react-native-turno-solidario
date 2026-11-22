@@ -1,0 +1,36 @@
+[
+  {
+    "id": "demo-1",
+    "title": "Bienvenida demo",
+    "place": "Auditorio",
+    "date": "2026-11-29",
+    "capacity": 4,
+    "participants": [
+      {
+        "alias": "Luna demo",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": "demo-2",
+    "title": "Clasificación demo",
+    "place": "Centro comunitario",
+    "date": "2026-11-30",
+    "capacity": 2,
+    "participants": []
+  },
+  {
+    "id": "demo-3",
+    "title": "Registro demo",
+    "place": "Patio",
+    "date": "2026-11-20",
+    "capacity": 3,
+    "participants": [
+      {
+        "alias": "Sol demo",
+        "completed": true
+      }
+    ]
+  }
+]
